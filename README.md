@@ -1,4 +1,4 @@
-# Odin-intro-to-CSS-scrimba-assingment
+# Odin-intro-to-CSS-assignment
 Complete Assignment of the Odin Project Intro to the CSS Scrim
 Video
 
