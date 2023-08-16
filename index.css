@@ -1,5 +1,29 @@
 /* styles */
 
+/*======= REASONS FOR UNEXPECTED DISPLAY ======== //
+//
+// 1. Default browser style-sheet
+// 2. Incorrect CSS values
+// 3. Conflicts in the cascade
+*/
+
+/*===== SPECIFICITY ======== //
+This is weight the browser gives to a selector which would determine how specific a style is.
+//Type selector | value: 0, 0, 1 | e.g. img
+//Class selector | value: 0, 1, 0 | e.g. .recipe-card
+//ID selector | value: 1,0,0 | eg . #container
+*/
+
+/*=== SPECIFICITY CHALLENGES ====//
+// ===== CHALLENGE -1 ======= //
+//
+// Change the background color of the recipe-card
+//      -- the style must be above the .recipe-card selector
+//      -- you cannot edit the .recipe-card rule
+*/
+
+
+
 * {
     line-height: 1.5;
 }
@@ -36,11 +60,21 @@ h1 {
 //      -- background color of #FFFAFA
 //      -- text is aligned center
 // 2. Set text inside recipe-content to align left
-//
-*/.recipe-card {
+*/
+
+/*=== Answer to specificity challenge -1 ===*/
+
+.recipe-card.feature 
+ {
+  background-color: FFFAFA;
+ }
+
+
+  .recipe-card {
     width: 400px;
     background-color: #FFFAFA;
     text-align: center;
+    color: black;
 }
 
   .recipe-content {
