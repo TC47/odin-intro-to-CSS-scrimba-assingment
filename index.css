@@ -1,0 +1,76 @@
+/* styles */
+
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========== CHALLENGE 1 ========== //
+//
+// Use the type selector to:
+// 1. Set the image width to 200px
+// 2. Set the list style of <ul> to none
+// 3. Add a dark red color to the <h1>
+//
+*/
+    
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+
+/* ========== CHALLENGE 2 ========== //
+//
+// 1. Style the recipe card so that it has a 
+//      -- background color of #FFFAFA
+//      -- text is aligned center
+// 2. Set text inside recipe-content to align left
+//
+*/.recipe-card {
+    width: 400px;
+    background-color: #FFFAFA;
+    text-align: center;
+}
+
+  .recipe-content {
+    text-align: left;
+  }
+
+  .recipe-card h2,
+  .recipe-card a { 
+    text-transform: uppercase;
+  }
+
+  .recipe-card.feature {
+    border: 2px solid darkred;
+  }
+
+  /* ========== CHALLENGE 3 ========== //
+//
+// 1. Change <h2> elements within a <ul> and <li> to be 16px
+// 2. Update recipe card link styles, set:
+//      -- background color to #fc9400
+//      -- text color to white
+//      -- remove underline
+*/
+
+ul h2 li {
+    font-size: 16px;
+}
+
+.recipe-card a {
+background-color: #fc9400;
+color: white;
+text-decoration: none;
+}
